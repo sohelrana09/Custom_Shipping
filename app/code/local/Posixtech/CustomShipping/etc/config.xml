@@ -1,0 +1,33 @@
+<config>
+    <modules>
+        <Posixtech_CustomShipping>
+            <version>0.0.0.1</version>
+        </Posixtech_CustomShipping>
+    </modules>
+    <global>
+        <models>
+            <customshipping>
+                <class>Posixtech_CustomShipping_Model</class>
+            </customshipping>
+        </models>
+        <helpers>
+            <customshipping>
+                <class>Posixtech_CustomShipping_Helper</class>
+            </customshipping>
+        </helpers>
+    </global>
+    <default>
+        <carriers>
+            <custom_shipping>
+                <active>0</active>
+                <title>Custom Configurable Shipping</title>
+                <name>Custom Configurable Shipping</name>
+                <model>customshipping/carrier_customshipping</model>
+                <price>5.00</price>
+                <customer_buy>15</customer_buy>
+                <customer_buy_off_price>25</customer_buy_off_price>
+                <free_shipping_over_price>25</free_shipping_over_price>
+            </custom_shipping>
+        </carriers>
+    </default>
+</config>

@@ -1,0 +1,8 @@
+<config>
+    <modules>
+        <Posixtech_CustomShipping>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Posixtech_CustomShipping>
+    </modules>
+</config>
